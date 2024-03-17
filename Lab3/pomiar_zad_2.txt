@@ -1,2 +1,2 @@
-By byte: 0.083244
-By Block: 0.000892
+By byte: 0.083377
+By Block: 0.001437

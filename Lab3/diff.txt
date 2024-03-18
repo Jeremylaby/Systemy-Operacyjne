@@ -1,0 +1,1 @@
+Files tmp2.txt and example.txt are identical

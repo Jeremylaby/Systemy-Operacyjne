@@ -23,13 +23,13 @@ int main(int argc,char **args){
     start=clock();
     reverse_file_by_bite(args[1],args[2]);
     end=clock();
-    fprintf(ft,"By byte: %f\n",(( double ) end - start)/CLOCKS_PER_SEC);
-    printf("By Byte: %f\n",(( double ) end - start)/CLOCKS_PER_SEC);
+    fprintf(ft,"By byte: %f s\n",(( double ) end - start)/CLOCKS_PER_SEC);
+    printf("By Byte: %f s\n",(( double ) end - start)/CLOCKS_PER_SEC);
     start=clock();
     reverse_file_by_block(args[1],args[2]);
     end=clock();
-    printf("By Block: %f\n",(( double ) end - start)/CLOCKS_PER_SEC);
-    fprintf(ft,"By Block: %f\n",(( double ) end - start)/CLOCKS_PER_SEC);
+    printf("By Block: %f s\n",(( double ) end - start)/CLOCKS_PER_SEC);
+    fprintf(ft,"By Block: %f s\n",(( double ) end - start)/CLOCKS_PER_SEC);
     fclose(ft);
     return 0;
 }

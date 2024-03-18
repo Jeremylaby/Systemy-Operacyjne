@@ -1,2 +1,2 @@
-By byte: 0.083377
-By Block: 0.001437
+By byte: 0.084755 s
+By Block: 0.001087 s

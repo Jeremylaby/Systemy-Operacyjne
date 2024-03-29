@@ -1,0 +1,4 @@
+Run "make example1" to execute the prepared solution example for the first task
+Run "make example2" to execute the prepared solution example for the second task
+Run "make zad1" and "./zad1 ..." to execute solution for the first task
+Run "make zad2" and "./zad2 ..." to execute solution for the second task

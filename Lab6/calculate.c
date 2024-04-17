@@ -33,15 +33,22 @@ int main(int argc, char *argv[]) {
         printf("Too few arguments");
         return 1;
     }
-    double dx = atof(argv[1]);
-    int n = atoi(argv[2]);
+    printf("program calculate is running ...\n");
+    double dx;
+    int n;
+    int fdn;
+    dx=atof(argv[1]);
+    n=atoi(argv[2]);
+    printf("with arguments n=%d dx=%lf\n",n,dx);
     int fd[n][2];
-    double a = 0.0 ;
-    double b =1.1;
-    int fdn = open(PIPE, O_RDONLY);
-    read(fdn, &a, sizeof(double));
-    read(fdn, &b, sizeof(double));
-    close(fdn);
+    double a;
+    double b;
+    fdn = open(PIPE, O_RDONLY);
+    if(fdn!=-1){
+        read(fdn, &a, sizeof(double));
+        read(fdn, &b, sizeof(double));
+        close(fdn);
+    }
     int m = round((b - a) / dx);
     for (int i = 0; i < n; i++) {
         pipe(fd[i]);
@@ -64,7 +71,6 @@ int main(int argc, char *argv[]) {
         dy += tmp;
 
     }
-    printf("%lf\n",dy);
     fdn = open(PIPE, O_WRONLY);
     write(fdn, &dy, sizeof(double));
     close(fdn);

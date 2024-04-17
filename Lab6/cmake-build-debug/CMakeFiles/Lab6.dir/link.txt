@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/Lab6.dir/main.c.o -o Lab6 

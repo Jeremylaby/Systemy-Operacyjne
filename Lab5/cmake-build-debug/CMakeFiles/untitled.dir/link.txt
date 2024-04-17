@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/untitled.dir/main.c.o CMakeFiles/untitled.dir/zad_dom1.c.o -o untitled 

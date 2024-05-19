@@ -29,7 +29,6 @@ int main(int argc,char * argv[]) {
         }
     }
     if(child_proces!=0) {
-
         printf("%d\n", n);
     }
     return 0;

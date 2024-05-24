@@ -20,7 +20,6 @@ void reverse_file_by_block(char *input_file_p,char * output_file_p){
     char bufor[BLOCK_SIZE];
     int i=-1;
     ssize_t res;
-
     while (fseek(input_file, i-- * BLOCK_SIZE, SEEK_END) == 0 || (res = fread(bufor, sizeof(char), BLOCK_SIZE, input_file)) != 0) {
         char *dataw = malloc(sizeof(char) * res);
         for (int j = 0; j < res; j++) {

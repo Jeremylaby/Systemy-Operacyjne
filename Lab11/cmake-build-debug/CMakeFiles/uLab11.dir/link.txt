@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/uLab11.dir/main.c.o CMakeFiles/uLab11.dir/server.c.o CMakeFiles/uLab11.dir/client.c.o -o uLab11 

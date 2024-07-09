@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/Lab12.dir/main.c.o CMakeFiles/Lab12.dir/server.c.o CMakeFiles/Lab12.dir/client.c.o CMakeFiles/Lab12.dir/server2.c.o CMakeFiles/Lab12.dir/client2.c.o -o Lab12 

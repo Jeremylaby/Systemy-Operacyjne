@@ -1,3 +1,0 @@
-/mnt/c/Users/stani/Documents/Studia/Systemy-Operacyjne/Lab12_2/cmake-build-debug/CMakeFiles/Lab12_2.dir
-/mnt/c/Users/stani/Documents/Studia/Systemy-Operacyjne/Lab12_2/cmake-build-debug/CMakeFiles/edit_cache.dir
-/mnt/c/Users/stani/Documents/Studia/Systemy-Operacyjne/Lab12_2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/stani/Documents/Studia/Systemy-Operacyjne/Lab12
+CMAKE_SOURCE_DIR = /mnt/c/Users/stani/Documents/Studia/Systemy-Operacyjne/Lab12_2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/stani/Documents/Studia/Systemy-Operacyjne/Lab12/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/c/Users/stani/Documents/Studia/Systemy-Operacyjne/Lab12_2/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/stani/Documents/Studia/Systemy-Operacyjne/Lab12/cmake-build-debug/CMakeFiles /mnt/c/Users/stani/Documents/Studia/Systemy-Operacyjne/Lab12/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/stani/Documents/Studia/Systemy-Operacyjne/Lab12_2/cmake-build-debug/CMakeFiles /mnt/c/Users/stani/Documents/Studia/Systemy-Operacyjne/Lab12_2/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/stani/Documents/Studia/Systemy-Operacyjne/Lab12/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/stani/Documents/Studia/Systemy-Operacyjne/Lab12_2/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,72 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Lab12
+# Target rules for targets named Lab12_2
 
 # Build rule for target.
-Lab12: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Lab12
-.PHONY : Lab12
+Lab12_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Lab12_2
+.PHONY : Lab12_2
 
 # fast build rule for target.
-Lab12/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab12.dir/build.make CMakeFiles/Lab12.dir/build
-.PHONY : Lab12/fast
-
-client.o: client.c.o
-.PHONY : client.o
-
-# target to build an object file
-client.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab12.dir/build.make CMakeFiles/Lab12.dir/client.c.o
-.PHONY : client.c.o
-
-client.i: client.c.i
-.PHONY : client.i
-
-# target to preprocess a source file
-client.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab12.dir/build.make CMakeFiles/Lab12.dir/client.c.i
-.PHONY : client.c.i
-
-client.s: client.c.s
-.PHONY : client.s
-
-# target to generate assembly for a file
-client.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab12.dir/build.make CMakeFiles/Lab12.dir/client.c.s
-.PHONY : client.c.s
-
-client2.o: client2.c.o
-.PHONY : client2.o
-
-# target to build an object file
-client2.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab12.dir/build.make CMakeFiles/Lab12.dir/client2.c.o
-.PHONY : client2.c.o
-
-client2.i: client2.c.i
-.PHONY : client2.i
-
-# target to preprocess a source file
-client2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab12.dir/build.make CMakeFiles/Lab12.dir/client2.c.i
-.PHONY : client2.c.i
-
-client2.s: client2.c.s
-.PHONY : client2.s
-
-# target to generate assembly for a file
-client2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab12.dir/build.make CMakeFiles/Lab12.dir/client2.c.s
-.PHONY : client2.c.s
+Lab12_2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab12_2.dir/build.make CMakeFiles/Lab12_2.dir/build
+.PHONY : Lab12_2/fast
 
 main.o: main.c.o
 .PHONY : main.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab12.dir/build.make CMakeFiles/Lab12.dir/main.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab12_2.dir/build.make CMakeFiles/Lab12_2.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -190,7 +142,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab12.dir/build.make CMakeFiles/Lab12.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab12_2.dir/build.make CMakeFiles/Lab12_2.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -198,56 +150,8 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab12.dir/build.make CMakeFiles/Lab12.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab12_2.dir/build.make CMakeFiles/Lab12_2.dir/main.c.s
 .PHONY : main.c.s
-
-server.o: server.c.o
-.PHONY : server.o
-
-# target to build an object file
-server.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab12.dir/build.make CMakeFiles/Lab12.dir/server.c.o
-.PHONY : server.c.o
-
-server.i: server.c.i
-.PHONY : server.i
-
-# target to preprocess a source file
-server.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab12.dir/build.make CMakeFiles/Lab12.dir/server.c.i
-.PHONY : server.c.i
-
-server.s: server.c.s
-.PHONY : server.s
-
-# target to generate assembly for a file
-server.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab12.dir/build.make CMakeFiles/Lab12.dir/server.c.s
-.PHONY : server.c.s
-
-server2.o: server2.c.o
-.PHONY : server2.o
-
-# target to build an object file
-server2.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab12.dir/build.make CMakeFiles/Lab12.dir/server2.c.o
-.PHONY : server2.c.o
-
-server2.i: server2.c.i
-.PHONY : server2.i
-
-# target to preprocess a source file
-server2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab12.dir/build.make CMakeFiles/Lab12.dir/server2.c.i
-.PHONY : server2.c.i
-
-server2.s: server2.c.s
-.PHONY : server2.s
-
-# target to generate assembly for a file
-server2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab12.dir/build.make CMakeFiles/Lab12.dir/server2.c.s
-.PHONY : server2.c.s
 
 # Help Target
 help:
@@ -257,22 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Lab12"
-	@echo "... client.o"
-	@echo "... client.i"
-	@echo "... client.s"
-	@echo "... client2.o"
-	@echo "... client2.i"
-	@echo "... client2.s"
+	@echo "... Lab12_2"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... server.o"
-	@echo "... server.i"
-	@echo "... server.s"
-	@echo "... server2.o"
-	@echo "... server2.i"
-	@echo "... server2.s"
 .PHONY : help
 
 

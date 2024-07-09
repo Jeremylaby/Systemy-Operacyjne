@@ -54,16 +54,16 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/stani/Documents/Studia/Systemy-Operacyjne/Lab12_2
+CMAKE_SOURCE_DIR = /mnt/c/Users/stani/Documents/Studia/Systemy-Operacyjne/Lab12
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/stani/Documents/Studia/Systemy-Operacyjne/Lab12_2/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/c/Users/stani/Documents/Studia/Systemy-Operacyjne/Lab12/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Lab12_2.dir/all
+all: CMakeFiles/Lab12.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Lab12_2.dir/clean
+clean: CMakeFiles/Lab12.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Lab12_2.dir
+# Target rules for target CMakeFiles/Lab12.dir
 
 # All Build rule for target.
-CMakeFiles/Lab12_2.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab12_2.dir/build.make CMakeFiles/Lab12_2.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab12_2.dir/build.make CMakeFiles/Lab12_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/stani/Documents/Studia/Systemy-Operacyjne/Lab12_2/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Lab12_2"
-.PHONY : CMakeFiles/Lab12_2.dir/all
+CMakeFiles/Lab12.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab12.dir/build.make CMakeFiles/Lab12.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab12.dir/build.make CMakeFiles/Lab12.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/stani/Documents/Studia/Systemy-Operacyjne/Lab12/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target Lab12"
+.PHONY : CMakeFiles/Lab12.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Lab12_2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/stani/Documents/Studia/Systemy-Operacyjne/Lab12_2/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Lab12_2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/stani/Documents/Studia/Systemy-Operacyjne/Lab12_2/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Lab12_2.dir/rule
+CMakeFiles/Lab12.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/stani/Documents/Studia/Systemy-Operacyjne/Lab12/cmake-build-debug/CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Lab12.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/stani/Documents/Studia/Systemy-Operacyjne/Lab12/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Lab12.dir/rule
 
 # Convenience name for target.
-Lab12_2: CMakeFiles/Lab12_2.dir/rule
-.PHONY : Lab12_2
+Lab12: CMakeFiles/Lab12.dir/rule
+.PHONY : Lab12
 
 # clean rule for target.
-CMakeFiles/Lab12_2.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab12_2.dir/build.make CMakeFiles/Lab12_2.dir/clean
-.PHONY : CMakeFiles/Lab12_2.dir/clean
+CMakeFiles/Lab12.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab12.dir/build.make CMakeFiles/Lab12.dir/clean
+.PHONY : CMakeFiles/Lab12.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
